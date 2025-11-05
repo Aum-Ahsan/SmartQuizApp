@@ -4,10 +4,9 @@ export default function Header() {
   return (
     <header>
       <h1>
-        Quiz Forge
-        <img src={logoImg} alt="Log for the App" />
+    Smart Quiz        <img src={logoImg} alt="Log for the App" />
       </h1>
-      <h3>Sharpen Your Coding Knowledge</h3>
+      <h2>Master Code, One Quiz at a Time.</h2>
     </header>
   );
 }
